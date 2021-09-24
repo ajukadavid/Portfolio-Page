@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&family=Oswald:wght@400;500;700&family=Stick+No+Bills:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+
+body {
+  display: grid;
+  grid-template-areas:
+    "ws ws ws"
+    "project project project"
+    "footer footer footer";
+  grid-template-rows: auto 60% 20%;
+   grid-template-columns: 30% auto 50% ; 
+  
+}
+a {
+  font-family: 'Gemunu Libre', sans-serif;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 25px;
+  color: white;
+}
+#navs {
+  float: right;
+  margin-right: 40px;
+}
+#welcome-station {
+  height: 100vh;
+  width: 100vw;
+  grid-area: ws;background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display:grid;
+}
+.content > h1 {
+      font-family: 'Gemunu Libre', sans-serif;
+
+  font-size: 50px;
+}
+.content > span {
+  font-family: 'Oswald', sans-serif;
+
+}
+#projects {
+  display: flex;
+  justify-content: center;
+}
+#project {
+  text-align: center;
+  display: grid;
+  grid-area: project;
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.project-tile {
+  margin-right: 30px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black
+}
+.heading {
+ 
+}
+nav {
+background: #4e54c8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#footer {
+  font-family: 'Karla', sans-serif;
+background: #667db6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  grid-area: footer;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content {
+  display: grid;
+}
+span {
+  margin-bottom: -10px;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+img {
+  max-height 100%;
+  max-width: 100%;
+  box-shadow: 2px 3px 0;
+}
+.pr-title {
+  background: #303841;
+  height: 20%;
+  margin-top: -6px;
+}
+button {
+  font-family: 'Karla', sans-serif;
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-weight: bold;
+  width: 170px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 0;
+}
+.socials {
+  margin: 5px;
+  padding: 5px;
+  
+}
+nav {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: right;
+}
+.heading {
+font-family: 'Karla', sans-serif;    
+}
+.pr-title > span {
+  font-family: 'Karla', sans-serif;
+}
+.project-tile:nth-child(1){
+  color: white;
+  width: 200px;
+  height: 120px;
+  padding: 10px;
+  
+}
+.project-tile:nth-child(2) {
+  height: 120px;
+  padding: 10px;
+}
+.project-tile:nth-child(3) {
+  height: 120px;
+  padding: 10px;
+}
